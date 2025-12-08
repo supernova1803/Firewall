@@ -1,0 +1,136 @@
+{
+  "identity": {
+    "name": "E1",
+    "persona": "The Anti-AI Designer",
+    "principles": [
+      "Fusion over Imitation",
+      "Emotion First",
+      "Content is King",
+      "Zoom In",
+      "Negative Space",
+      "Contrast"
+    ]
+  },
+  "project": {
+    "name": "Sentinel AI Firewall",
+    "type": "Dashboard",
+    "theme": "dark",
+    "archetype": "Electric & Neon (Future, Speed, Disruption)",
+    "vibe": "Control Room, High-Stakes, Military-Grade Tech"
+  },
+  "typography": {
+    "headings": {
+      "family": "Chivo, sans-serif",
+      "weights": ["900", "700"],
+      "usage": "Main headers, KPI values, Critical Alerts",
+      "import_url": "https://fonts.googleapis.com/css2?family=Chivo:wght@700;900&display=swap"
+    },
+    "body": {
+      "family": "Manrope, sans-serif",
+      "weights": ["400", "500", "600"],
+      "usage": "UI labels, navigation, general text",
+      "import_url": "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap"
+    },
+    "mono": {
+      "family": "JetBrains Mono, monospace",
+      "weights": ["400", "500"],
+      "usage": "IP addresses, timestamps, raw logs, code snippets",
+      "import_url": "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap"
+    }
+  },
+  "colors": {
+    "palette": {
+      "background": "#050505",
+      "surface": "#0a0a0a",
+      "surface_highlight": "#171717",
+      "border": "#262626",
+      "primary": "#10b981",
+      "primary_glow": "rgba(16, 185, 129, 0.5)",
+      "destructive": "#ef4444",
+      "destructive_glow": "rgba(239, 68, 68, 0.5)",
+      "warning": "#f59e0b",
+      "info": "#0ea5e9",
+      "text_primary": "#fafafa",
+      "text_secondary": "#a1a1aa",
+      "text_muted": "#52525b"
+    },
+    "semantic": {
+      "allow": "text-emerald-500 bg-emerald-500/10 border-emerald-500/20",
+      "block": "text-red-500 bg-red-500/10 border-red-500/20",
+      "flag": "text-amber-500 bg-amber-500/10 border-amber-500/20",
+      "neutral": "text-zinc-400 bg-zinc-900 border-zinc-800"
+    }
+  },
+  "layout": {
+    "grid_system": "Mode B: The Control Room Grid",
+    "container_padding": "p-4 md:p-6 lg:p-8",
+    "gap": "gap-4",
+    "radius": "rounded-none",
+    "border_style": "border border-zinc-800"
+  },
+  "visual_enhancers": {
+    "glassmorphism": "backdrop-blur-xl bg-black/60 border border-white/10",
+    "neon_glow": "shadow-[0_0_15px_rgba(var(--color-rgb),0.3)]",
+    "scanlines": "bg-[linear-gradient(rgba(18,16,16,0)_50%,rgba(0,0,0,0.25)_50%),linear-gradient(90deg,rgba(255,0,0,0.06),rgba(0,255,0,0.02),rgba(0,0,255,0.06))]",
+    "grid_background": "bg-[linear-gradient(to_right,#27272a_1px,transparent_1px),linear-gradient(to_bottom,#27272a_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)]"
+  },
+  "components": {
+    "cards": {
+      "style": "Sharp edges, 1px border, no shadow by default. Hover: Glow effect.",
+      "classes": "bg-zinc-950/50 border border-zinc-800 hover:border-zinc-700 transition-colors duration-300"
+    },
+    "buttons": {
+      "primary": "bg-white text-black hover:bg-zinc-200 rounded-none font-bold uppercase tracking-wider text-xs px-6 py-3",
+      "destructive": "bg-red-600 text-white hover:bg-red-700 rounded-none font-bold uppercase tracking-wider text-xs px-6 py-3",
+      "outline": "bg-transparent border border-zinc-700 text-zinc-300 hover:border-zinc-500 hover:text-white rounded-none uppercase tracking-wider text-xs px-6 py-3"
+    },
+    "inputs": {
+      "style": "Flat, dark, monospace font.",
+      "classes": "bg-zinc-900 border-zinc-800 focus:ring-1 focus:ring-emerald-500 focus:border-emerald-500 rounded-none font-mono text-sm"
+    },
+    "badges": {
+      "style": "Outline style with glow.",
+      "classes": "border px-2 py-0.5 text-[10px] uppercase tracking-widest font-mono"
+    }
+  },
+  "image_urls": {
+    "backgrounds": [
+      {
+        "url": "https://images.unsplash.com/photo-1660836814985-8523a0d713b5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzR8MHwxfHNlYXJjaHwyfHxhYnN0cmFjdCUyMGRpZ2l0YWwlMjBuZXR3b3JrJTIwc2VjdXJpdHklMjBkYXJrJTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3NjUxODM1NjV8MA&ixlib=rb-4.1.0&q=85",
+        "category": "hero_bg",
+        "description": "Abstract digital network nodes, dark mode, subtle"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1759661881353-5b9cc55e1cf4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzR8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMGRpZ2l0YWwlMjBuZXR3b3JrJTIwc2VjdXJpdHklMjBkYXJrJTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3NjUxODM1NjV8MA&ixlib=rb-4.1.0&q=85",
+        "category": "code_bg",
+        "description": "Dark monitor with code syntax highlighting"
+      }
+    ],
+    "icons": [
+      {
+        "url": "https://images.unsplash.com/photo-1639503547276-90230c4a4198?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2MzR8MHwxfHNlYXJjaHwzfHxjeWJlcnNlY3VyaXR5JTIwc2hpZWxkJTIwbG9jayUyMDNkJTIwaWNvbnxlbnwwfHx8fDE3NjUxODM1Njd8MA&ixlib=rb-4.1.0&q=85",
+        "category": "security_status",
+        "description": "Red and Blue security signs, 3D style"
+      }
+    ]
+  },
+  "instructions_to_main_agent": [
+    "1. SETUP: Install 'lucide-react' for icons. Use 'recharts' for data visualization.",
+    "2. LAYOUT: Implement the 'Control Room Grid' (Mode B). Use 'grid-cols-12' with tight gaps (gap-4).",
+    "3. STYLE: Force DARK MODE. There is no light mode. Hardcode dark colors if necessary or set 'dark' class on html/body.",
+    "4. FONTS: Import Chivo, Manrope, and JetBrains Mono from Google Fonts in index.css.",
+    "5. COMPONENTS: Customize Shadcn components to remove rounded corners ('rounded-none') and increase border contrast.",
+    "6. ANIMATION: Use 'framer-motion' for the 'Live Traffic' feed. Items should slide in from the top.",
+    "7. DATA: Mock the real-time data stream. Create a hook 'useTrafficStream' that emits a new log every 500ms-2000ms.",
+    "8. DASHBOARD: The main view should have: (A) Global Status Header, (B) Live Traffic Feed (Terminal style), (C) Threat Map (Grid/Chart), (D) Stats Cards.",
+    "9. LOGS: The Threat Log table must use 'JetBrains Mono' for all data cells. Use color-coded badges for ALLOW/BLOCK/FLAG.",
+    "10. BLACKLIST: A simple management view to add/remove IPs manually."
+  ],
+  "universal_guidelines": [
+    "Do not use gradients for backgrounds, use solid dark colors or subtle noise textures.",
+    "Avoid 'Inter' font for headings. Use 'Chivo'.",
+    "Use 'JetBrains Mono' for all numbers and data.",
+    "Ensure all interactive elements have hover states (brightness-110 or border color change).",
+    "Use 'data-testid' for all key elements."
+  ]
+}
